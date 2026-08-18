@@ -1,0 +1,6 @@
+# dsh bundle patch: inserts this plugin into a profile's loader layer stack.
+# Referenced from package.json "dsh.bundle.patch". Installed by the market /
+# by `dsh plugin --profile web add dsh-rollback`.
+- insert:
+    - id: dsh-rollback
+      name: 'dsh-rollback'
